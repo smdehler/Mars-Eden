@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mars Eden Initiative</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --mars-red: #c1440e;
+      --light-gray: #f7f7f7;
+      --dark-gray: #333;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: white;
+      color: var(--dark-gray);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--mars-red);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5rem;
+      margin: 0 0 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    nav {
+      background-color: #111;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 960px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2rem;
+      color: var(--mars-red);
+      margin-bottom: 20px;
+    }
+
+    p, li {
+      font-size: 1.1rem;
+      color: #444;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    .banner {
+      width: 100%;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 50px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: var(--mars-red);
+      color: white;
+      padding: 14px 28px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #a73408;
+    }
+
+    footer {
+      text-align: center;
+      background: #111;
+      color: #ccc;
+      padding: 20px 10px;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mars Eden Initiative</h1>
+    <p>Grow the Future. Live on Mars.</p>
+  </header>
+
+  <nav>
+    <a href="#mission">Mission</a>
+    <a href="#vision">Vision</a>
+    <a href="#careers">Careers</a>
+    <a href="#apply">Apply</a>
+  </nav>
+
+  <div class="banner" style="background-image: url('https://images.unsplash.com/photo-1580428181628-47d3f77ba87e?auto=format&fit=crop&w=1400&q=80');"></div>
+
+  <section id="mission">
+    <h2>Our Mission</h2>
+    <p>
+      The Mars Eden Initiative (MEI) is a global research and colonization program focused on building the first self-sustaining greenhouses and gardens on Mars. By pioneering new techniques in space agriculture, our mission is to ensure a viable food system for long-term human settlement.
+    </p>
+  </section>
+
+  <div class="banner" style="background-image: url('https://images.unsplash.com/photo-1636742732376-e984991db6a3?auto=format&fit=crop&w=1400&q=80'); height: 250px;"></div>
+
+  <section id="vision">
+    <h2>Our Vision for Mars</h2>
+    <p>
+      Greenhouses on Mars will use hydroponic systems, solar power, water recycling, and Martian soil experiments to produce sustainable crops. Our team is designing sealed habitat gardens that will serve both nutritional and psychological needs of future colonists.
+    </p>
+  </section>
+
+  <div class="banner" style="background-image: url('https://images.unsplash.com/photo-1607082349566-187342b3bfb3?auto=format&fit=crop&w=1400&q=80'); height: 250px;"></div>
+
+  <section id="careers">
+    <h2>Who We’re Looking For</h2>
+    <p>
+      We are seeking visionary thinkers with technical expertise in the following areas:
+    </p>
+    <ul>
+      <li>Botany, Agronomy, or Environmental Biology</li>
+      <li>Aerospace Engineering or Systems Design</li>
+      <li>Astrobiology or Space Agriculture</li>
+    </ul>
+    <p>
+      Ideal applicants are graduate-level researchers or engineers (M.S. or PhD) with experience in space simulations, remote environments, or experimental agriculture. Spaceflight experience is a plus.
+    </p>
+  </section>
+
+  <section id="apply">
+    <h2>Apply to Join the Mission</h2>
+    <p>
+      Selected applicants will undergo a two-year Earth-based training program followed by deployment to Mars as part of a permanent colony. Your work will shape the future of planetary settlement.
+    </p>
+    <p>
+      Please prepare:
+      <ul>
+        <li>A current CV or résumé</li>
+        <li>Academic credentials</li>
+        <li>A one-page mission statement (PDF)</li>
+      </ul>
+    </p>
+    <a href="#" class="cta-button">Apply Now</a>
+  </section>
+
+  <footer>
+    © 2025 Mars Eden Initiative | In partnership with NASA & ESA | Designed for GitHub Pages
+  </footer>
+
+</body>
+</html>
